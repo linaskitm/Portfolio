@@ -6,7 +6,6 @@ import TimelineSeparator from "@material-ui/lab/TimelineSeparator";
 import TimelineConnector from "@material-ui/lab/TimelineConnector";
 import TimelineContent from "@material-ui/lab/TimelineContent";
 import TimelineDot from "@material-ui/lab/TimelineDot";
-import WorkIcon from "@material-ui/icons/Work";
 
 import './Timeline.css'
 import { Typography } from '@material-ui/core';
@@ -17,23 +16,17 @@ const CustomTimeline = ({ title, children, icon }) => {
       {/* Item header */}
       <TimelineItem className={"timeline_firstItem"}>
         <TimelineSeparator>
-        <TimelineDot className={"timeline_dot_header"}>{icon}</TimelineDot>
+          <TimelineDot className={"timeline_dot_header"}>{icon}</TimelineDot>
           <TimelineConnector />
+
+          <TimelineContent>
+            <Typography variant="h6" className={"timeline_header"}>
+              {title}
+            </Typography>
+          </TimelineContent>
         </TimelineSeparator>
-        <TimelineContent>
-          <Typography variant="h6" className={"timeline_header"}>
-            {title}
-          </Typography>
-        </TimelineContent>
       </TimelineItem>
-
       {children}
-
-      {/* Remaining items */}
-      <TimelineItem>
-        <CustomTimeLineSeparator />
-        <TimelineContent>Code</TimelineContent>
-      </TimelineItem>
     </Timeline>
   );
 };
