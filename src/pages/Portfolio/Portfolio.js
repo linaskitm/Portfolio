@@ -1,8 +1,9 @@
 import React from 'react'
+import './Portfolio.css'
 
 const Portfolio = () => {
     return (
-        <div>
+        <div className='bg-color'>
             Portfolio page
         </div>
     )
