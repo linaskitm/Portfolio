@@ -20,5 +20,7 @@ export default {
             text: 'Linas Pelenis',
             icon: <GitHubIcon/>
         }
-    }
+    },
+    about: 'Started earnest brother believe an exposed so. Me he believing daughters if forfeited at furniture. Age again and stuff downs spoke. Late hour new nay able fat each sell. Nor themselves age introduced frequently use unsatiable devonshire get. They why quit gay cold rose deal park. One same they four did ask busy. Reserved opinions fat him nay position. Breakfast as zealously incommode do agreeable furniture. One too nay led fanny allow plate.',
+    
 }
