@@ -1,5 +1,5 @@
 import React from "react";
-import { Divider, Typography } from "@material-ui/core";
+import {Typography } from "@material-ui/core";
 import image from '../../assets/images/demo.jpg'
 import CustomTimeline, {
   CustomTimeLineSeparator,

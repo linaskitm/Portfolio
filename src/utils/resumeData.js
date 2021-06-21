@@ -2,7 +2,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 
 export default {
-    name: 'Linas',
+    name: 'Linas Pelenis',
     title: 'Software developer',
     birthday: '26th November 1991',
     job:'Software developer',
