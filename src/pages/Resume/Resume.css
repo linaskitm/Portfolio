@@ -3,3 +3,17 @@
     font: smaller;
     line-height: 22px !important;
 }
+
+/* Timeline */
+.resume_timeline .timeline_title {
+    font-size: 16px !important;
+    font-weight: 600 !important;
+}
+.resume_timeline .resume_date {
+    color: darkslategray;
+}
+.resume_timeline .timeline_description {
+    color: gray;
+    font-size: smaller;
+    margin-top: 6px;
+}

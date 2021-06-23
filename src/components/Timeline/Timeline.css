@@ -4,13 +4,16 @@
 /* Header */
 
 .timeline .timeline_header {
-    padding-top: 7px !important;
+    padding-top: 15px !important;
 }
 .timeline .timeline_firstItem {
-    min-height: 80px !important;
+    min-height: auto !important;
 }
 .timeline .MuiTimelineItem-root {
-    min-height: 0px !important;
+    min-height: 40px !important;
+}
+.timeline .MuiTimelineItem-root >.timeline_firstItem {
+    min-height: 80px !important;
 }
 .timeline .MuiTimelineItem-missingOppositeContent::before {
     display: none;
