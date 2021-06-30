@@ -20,7 +20,7 @@ const CustomTimeline = ({ title, children, icon }) => {
           <TimelineConnector />
         </TimelineSeparator>
 
-        <TimelineContent>
+        <TimelineContent className="pb_45">
           <Typography variant="h6" className={"timeline_header"}>
             {title}
           </Typography>

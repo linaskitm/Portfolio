@@ -1,5 +1,6 @@
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
+import WebOutlinedIcon from '@material-ui/icons/WebOutlined';
 
 export default {
   name: "Linas Pelenis",
@@ -62,6 +63,52 @@ export default {
       date: "2014 - 2016",
       description:
         "Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.",
+    },
+  ],
+
+  services: [
+    {
+      title: "Web dev",
+      description: "some info about this kind of service",
+      icon: <WebOutlinedIcon />,
+    },
+    {
+      title: "Web dev",
+      description: "some info about this kind of service",
+      icon: <WebOutlinedIcon />,
+    },
+    {
+      title: "Web dev",
+      description: "some info about this kind of service",
+      icon: <WebOutlinedIcon />,
+    },
+  ],
+  skills: [
+    {
+      title: "Front-end",
+      description: [
+        "ReactJS",
+        "JavaScript",
+        "TypeScript",
+        "Bootstrap",
+        "Material UI",
+      ],
+    },
+    {
+      title: "Backend-end",
+      description: ["NodeJS", "PHP", "Laravel"],
+    },
+    {
+      title: "Databases",
+      description: ["MySQL", "MongoDB", "PostgreSQL", "Firebase"], 
+    },
+    {
+      title: "Source Control",
+      description: [
+        "Git",
+        "Github",
+        "Scrum/Agile",
+      ],
     },
   ],
 };
