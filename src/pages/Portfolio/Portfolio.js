@@ -27,7 +27,7 @@ const Portfolio = () => {
               <Card>
                 <CardActionArea>
                   <CardMedia>
-                      <CustomImage image={project.image} />
+                    <CustomImage image={project.image} />
                   </CardMedia>
                   <CardContent>
                     <Typography gutterBottom variant="h5" component="h2">
@@ -44,16 +44,14 @@ const Portfolio = () => {
                   </CardContent>
                 </CardActionArea>
                 <CardActions>
-                  <Button
-                    size="small"
-                    color="primary"
-                    href={project.GithubLink}
-                  >
-                    {project.GithubIcon}
-                  </Button>
-                  <Button size="small" color="primary" href={project.liveLink}>
-                    {project.liveIcon}
-                  </Button>
+                  <Grid container justify='space-around'>
+                    <Button className="custom-btn" href={project.GithubLink}>
+                      {project.GithubIcon}
+                    </Button>
+                    <Button className="custom-btn" href={project.liveLink}>
+                      {project.liveIcon}
+                    </Button>
+                  </Grid>
                 </CardActions>
               </Card>
             </Grid>
