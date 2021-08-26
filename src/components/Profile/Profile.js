@@ -1,6 +1,8 @@
 import React from "react";
+import { Link, withRouter } from "react-router-dom";
+
 import {Typography } from "@material-ui/core";
-import image from '../../assets/images/demo.jpg'
+import image from '../../assets/images/demo2.jpg'
 import CustomTimeline, {
   CustomTimeLineSeparator,
 } from "../Timeline/CustomTimeline";
@@ -64,11 +66,13 @@ const Profile = () => {
           ))}
         </CustomTimeline>
         <div className="button_container">
-          <CustomButton text={"Download Cv"} icon={<GetAppIcon />} />
+          <Link to="/files/LinasPelenisCv.pdf" target="_blank">
+            <CustomButton text={"Download Cv"} icon={<GetAppIcon />} />
+          </Link>
         </div>
       </div>
     </div>
   );
 };
 
-export default Profile;
+export default withRouter(Profile);
