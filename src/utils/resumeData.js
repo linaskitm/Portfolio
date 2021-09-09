@@ -9,6 +9,8 @@ export default {
   job: "Software developer",
   email: "lpelenis@gmail.com",
   phone: "+37062464551",
+  phoneToCall: "tel:+37062464551",
+  city: "Kaunas, ",
 
   socials: {
     Linkedin: {

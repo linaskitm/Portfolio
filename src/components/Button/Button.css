@@ -8,6 +8,7 @@
     line-height: 35px !important;
     min-width: 180px !important;
     outline: none !important;
+    text-decoration: none;
 }
 .custom_btn .btn_icon_container {
     color: #000;
@@ -20,6 +21,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
 }
 .custom_btn .btn_icon_container > .MuiSvgIcon-root {
     font-size: 16px;
@@ -27,8 +29,13 @@
 .custom_btn .btn_text {
     font-size: 14px;
     text-transform: none;
+    text-decoration: none;
     text-align: center;
     width: 100%;
     margin-left: 5px;
     margin-right: 5px;
+}
+.custom_btn .btn_text:hover {
+    text-decoration: none;
+    color: rebeccapurple;
 }

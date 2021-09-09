@@ -6,6 +6,8 @@ import { WorkRoundedIcon, FacebookIcon, GithubIcon} from "@material-ui/icons";
 import HomeRoundedIcon from "@material-ui/icons/HomeRounded";
 import TelegramIcon from '@material-ui/icons/Telegram';
 import resumeData from '../../utils/resumeData'
+import LocationOnIcon from "@material-ui/icons/LocationOn";
+import PhoneIcon from "@material-ui/icons/Phone";
 import CustomButton from '../Button/Button'
 import './Header.css'
 
@@ -42,13 +44,19 @@ const Header = (props) => {
             </Nav.Link>
           </Nav>
           <div className="header_right">
-            {Object.keys(resumeData.socials).map((key) => (
+            {/* {Object.keys(resumeData.socials).map((key) => (
               <a href={resumeData.socials[key].link} target="_blank">
                 {resumeData.socials[key].icon}{" "}
               </a>
-            ))}
+            ))} */}
+            <LocationOnIcon />
+            {resumeData.city}
+            <PhoneIcon />
+            <a className="header_link" href={resumeData.phoneToCall}>
+              {resumeData.phone}
+            </a>
           </div>
-          <CustomButton text={"hire me too"} icon={<TelegramIcon />} />
+          {/* <CustomButton text={"hire me too"} icon={<TelegramIcon />} /> */}
         </Navbar.Collapse>
       </Navbar>
     );

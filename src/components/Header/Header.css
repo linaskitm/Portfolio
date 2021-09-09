@@ -18,6 +18,7 @@
 }
 .header .header_link {
     color: black !important;
+    text-decoration: none;
 }
 .header .header_link:hover {
     color: var(--main-color) !important;
