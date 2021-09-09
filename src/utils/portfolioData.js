@@ -10,7 +10,7 @@ export default {
       GithubLink: "https://github.com/linaskitm/quiz-app-react",
       GithubIcon: <GitHubIcon />,
       liveIcon: <VisibilityIcon />,
-      liveLink: "https://www.google.com/",
+      liveLink: "https://quiz-app-react-eta.vercel.app/",
     },
     {
       image: projectImage,
