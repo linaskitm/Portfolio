@@ -7,12 +7,13 @@ import CustomTimeline, {
   CustomTimeLineSeparator,
 } from "../Timeline/CustomTimeline";
 import resumeData from '../../utils/resumeData'
-import PersonOutlineIcon from "@material-ui/icons/PersonOutline";
+import PersonIcon from "@material-ui/icons/Person";
 import TimelineItem from "@material-ui/lab/TimelineItem";
 import TimelineContent from "@material-ui/lab/TimelineContent";
 import CustomButton from '../Button/Button'
 import GetAppIcon from "@material-ui/icons/GetApp";
-
+import WorkIcon from "@material-ui/icons/Work";
+import EmailIcon from "@material-ui/icons/Email";
 import './Profile.css'
 
 const CustomTimelineItem = ({ title, text, link }) => (
@@ -23,7 +24,7 @@ const CustomTimelineItem = ({ title, text, link }) => (
       {link ? (
         <Typography className="timelineItem_text">
           {" "}
-          <span>{title}:</span>
+          <span>{title}</span>{" "}
           <a href={link} target="_blank">
             {text}
           </a>
@@ -31,7 +32,7 @@ const CustomTimelineItem = ({ title, text, link }) => (
       ) : (
         <Typography className="timelineItem_text">
           {" "}
-          <span>{title}:</span>
+          <span>{title}</span>{" "}
           {text}
         </Typography>
       )}
@@ -48,18 +49,18 @@ const Profile = () => {
       </div>
 
       <div className="profile_image">
-        <img src={image} alt="" />
+        <img src={image} alt="myFoto" />
       </div>
 
       <div className="profile_information">
-        <CustomTimeline icon={<PersonOutlineIcon />}>
-          <CustomTimelineItem title="Name" text={resumeData.name} />
-          <CustomTimelineItem title="Title" text={resumeData.title} />
-          <CustomTimelineItem title="Email" text={resumeData.email} />
+        <CustomTimeline icon={<PersonIcon />}>
+          <CustomTimelineItem title={<PersonIcon />} text={resumeData.name} />
+          <CustomTimelineItem title={<WorkIcon />} text={resumeData.title} />
+          <CustomTimelineItem title={<EmailIcon />} text={resumeData.email} />
 
           {Object.keys(resumeData.socials).map((key) => (
             <CustomTimelineItem
-              title={key}
+              title={resumeData.socials[key].icon}
               text={resumeData.socials[key].text}
               link={resumeData.socials[key].link}
             />

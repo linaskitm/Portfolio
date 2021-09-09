@@ -62,7 +62,7 @@ const Resume = () => {
               </Grid>
               {/* Education */}
               <Grid className="resume_timeline" item sm={12} md={6}>
-                <CustomTimeline title="Education" icon={<SchoolIcon />}>
+                <CustomTimeline title="Education/Training Courses" icon={<SchoolIcon />}>
                   {resumeData.educations.map((education) => (
                     <TimelineItem>
                       <CustomTimeLineSeparator />

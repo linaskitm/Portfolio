@@ -23,46 +23,48 @@ export default {
     },
   },
   about:
-    "Started earnest brother believe an exposed so. Me he believing daughters if forfeited at furniture. Age again and stuff downs spoke. Late hour new nay able fat each sell. Nor themselves age introduced frequently use unsatiable devonshire get. They why quit gay cold rose deal park. One same they four did ask busy. Reserved opinions fat him nay position. Breakfast as zealously incommode do agreeable furniture. One too nay led fanny allow plate.",
+    "I have found a passion for programming and began searching for career opportunities in this industry. Every day I spent as many hours as l can of learning, coding and expanding knowledge about programming.",
 
   experiences: [
     {
-      title: "work 1",
-      date: "2018 - 2020",
+      title: "Beekeeper",
+      date: "2016 - Present",
       description:
-        "Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.",
+        "Bee farming - from maintaining equipment to selling production.",
     },
     {
-      title: "work 2",
-      date: "2016 - 2018",
+      title: "UAB Centras - Accountant",
+      date: "2018 - 2019",
       description:
-        "Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.",
+        "Household goods store, position – accountant, responsible for transition from total to quantitative accounting, software adaptation/training, automation.",
     },
     {
-      title: "work 3",
-      date: "2014 - 2016",
+      title: "UAB Investra - Assistant",
+      date: "2015 - 2016",
       description:
-        "Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.",
+        " Evaluation of the receipt of EU support. Responsible for all required data, preparation of development plan, calculation of possible support and etc.",
     },
   ],
   educations: [
     {
-      title: "education 1",
-      date: "2018 - 2020",
-      description:
-        "Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.",
+      title: "We Can Code Academy",
+      date: "Mar 2021 - May 2021, Online",
+      description: "From Front to Back",
     },
     {
-      title: "education 2",
-      date: "2016 - 2018",
-      description:
-        "Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.",
+      title: "Kaunas Information Technology School",
+      date: "Sep 2020 - Mar 2021, Kaunas",
+      description: "Web development",
     },
     {
-      title: "education 3",
-      date: "2014 - 2016",
-      description:
-        "Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.",
+      title: "Kaunas Coding School",
+      date: "Nov 2017",
+      description: "Full-stack web development boot-camp 160 hours",
+    },
+    {
+      title: "Kolping College",
+      date: "2011 - 2014, Kaunas",
+      description: "Finance",
     },
   ],
 
@@ -100,15 +102,11 @@ export default {
     },
     {
       title: "Databases",
-      description: ["MySQL", "MongoDB", "PostgreSQL", "Firebase"], 
+      description: ["MySQL", "MongoDB", "PostgreSQL", "Firebase"],
     },
     {
       title: "Source Control",
-      description: [
-        "Git",
-        "Github",
-        "Scrum/Agile",
-      ],
+      description: ["Git", "Github", "Scrum/Agile"],
     },
   ],
 };
